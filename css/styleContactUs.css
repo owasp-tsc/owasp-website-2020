@@ -1,0 +1,167 @@
+#container-contactUs{
+	width:100% ;
+}
+ 
+
+.contactus{
+	width:100%;
+	margin:0 auto;
+    background: rgb(245, 245, 245);
+	opacity: 100%;
+}
+
+.emptydiv{
+	padding:20px;
+	border-bottom: 2px solid #0E002F;
+}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+	padding:7px;
+  }
+  
+
+.headingContactUs {
+	text-align: center;
+	font-family: 'Anton', sans-serif;
+	color: black;
+	padding: 10px;
+	/* border-top: 2px solid  darkred; */
+	/* border-bottom:2px solid  darkred; */
+	margin-bottom: 0;
+}
+.notes{
+	width:60%;
+	display: block;
+	margin:5px auto;
+}
+.maps{
+	width: 90%;
+	display: block;
+	margin:10px auto;
+	border: 2px dotted #0E002F;
+}
+
+
+
+
+
+
+
+/* logo bar */
+.logos-contactus{
+	text-align: center;
+	background-color: #0E002F;
+	margin: 0 auto;
+	padding: 20px;
+	/*box-shadow: 2px 2px 2px 2px grey ;*/
+}
+.insta{
+	width:13%;
+	height: 13%;
+	margin-right: 10px;
+	margin-left:10px;
+}
+.fb{
+	width:13%;
+	height: 13%;
+	margin-right: 10px;
+	margin-left:10px;
+
+}
+.linkedin{
+    width:13%;
+	height: 13%;
+	margin-right: 10px;
+	margin-left:10px;
+}
+.whatsap{
+	width:13%;
+	height: 13%;
+	margin-right: 10px;
+	margin-left:10px;
+}
+
+
+@media only screen and (min-width:475px){
+.headingContactus{
+	text-align: left;
+	padding: 10px;
+	/* border-top: 2px solid  darkred; */
+	/* border-bottom:2px solid  darkred; */
+	margin-bottom: 0;
+}
+.middle{
+	text-align: center;
+	width: 100%;
+}
+
+.notes{
+	width:30%;
+	padding: 10px;
+	display: inline-block;
+	margin:5px auto;
+	vertical-align: 0;
+}
+.maps{
+	width: 50%;
+	height: 50%;
+	display: inline-block;
+	margin:10px auto;
+	border: 2px dotted #0E002F;
+}
+ .packet{
+	 width:450px;
+	 margin: 0 auto;
+ }
+
+
+@media only screen and (min-width:700px){
+
+
+	.headingContactus{
+		text-align: left;
+		padding: 10px;
+		/* border-top: 2px solid  darkred; */
+		/* border-bottom:2px solid  darkred; */
+		margin-bottom: 0;
+	}
+	.middle{
+		text-align: center;
+		width: 700px;
+		margin: 0 auto;
+	}
+	
+	
+	.notes{
+		width:300px;
+		display: inline-block;
+		margin:5px 20px;
+	}
+	.maps{
+		width: 300px;
+		height: 300px;
+		display: inline-block;
+		margin:10px 20px;
+		border: 2px dotted #0E002F;
+	}
+}
+
+@media only screen and (min-width:1000px){
+
+
+	.middle{
+		text-align: center;
+		width: 1000px;
+		margin: 0 auto;
+	}
+	
+	.maps{
+		width: 600px;
+		height: 300px;
+		display: inline-block;
+		margin:10px 20px;
+		border: 2px dotted #0E002F;
+	}
+}
