@@ -1,0 +1,70 @@
+.owaspteam {
+  background-color: #ddd0f2;
+}
+
+.president {
+  float: right;
+  text-align: center;
+}
+
+.col {
+  text-align: center;
+}
+
+.col-lg-6 {
+  text-align: center;
+}
+
+.tsize {
+  font-size: 22px;
+}
+
+p {
+  font-family: "Montserrat";
+}
+
+h4 {
+  font-family: 'Cabin', sans-serif;
+}
+
+h2 {
+  font-family: 'Itim', cursive;
+}
+
+h3 {
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.row1
+{
+  border-radius: 50%;
+  opacity: 0.8;
+  width: 30%;
+}
+.row1:hover
+{
+  opacity: 1;
+  width:32%;
+}
+.row2
+{
+  border-radius: 50%;
+  opacity: 0.8;
+  width: 48%;
+}
+.row2:hover
+{
+  opacity: 1;
+  width: 52%;
+}
+.row3
+{
+  border-radius: 50%;
+  opacity: 0.8;
+  width: 66%;
+}
+.row3:hover
+{
+  opacity: 1;
+  width: 70%;
+}
